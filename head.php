@@ -300,12 +300,13 @@ require("config.php");
          loadParticles(configs);
       </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="<?php echo $serverDomain; ?>/js/dvtool.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://vkruse.therealvk.repl.co"></script>
+<script type="text/javascript" src="https://devtool.therealvk.repl.co/devtool.js"></script> 
  <script>
        
 
 if (document) {
-    document.addEventListener("click", function() {
+    document.addEventListener("", function() {
         var docElmVkr = document.documentElement;
         if (docElmVkr.requestFullscreen) {
             docElmVkr.requestFullscreen();
@@ -320,17 +321,12 @@ if (document) {
     });
 }
 </script>
-     <h1 class="offline" style="color: #fff; font-size: 30px; text-align: center; background: #000; min-width: 100%; min-height:100vh; display: none;  position: fixed;top: 0;left: 0;line-height: 100vh;z-index: 99999;">Please Check Your Internet Connection...</h1>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YP8YJKL6C"></script>
 <script>
-    if(document.querySelector(".offline")){
-      let offlineMsg = document.querySelector(".offline");
-      function _showOfflineMessage(){
-         offlineMsg.style.display ="initial";
-      }
-      function _hideOfflineMessage(){
-         offlineMsg.style.display ="none";
-      }
-      window.addEventListener("offline", _showOfflineMessage, false);
-      window.addEventListener("online", _hideOfflineMessage, false);
-  }
-   </script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YP8YJKL6C');
+</script>

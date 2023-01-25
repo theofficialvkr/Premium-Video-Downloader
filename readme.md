@@ -20,4 +20,4 @@ To Buy Api KEY Contact Me On <a href="https://t.me/theofficialvkr">Telegram</a> 
  |  <a href="mailto:contactvkr@yahoo.com">contactvkr@yahoo.com</a>
  
  # Demo 
- <a href="http://vkrfork.ml/demo">DEMO</a>
+ <a href="http://theofficialvkr.ml/demo/">DEMO</a>
