@@ -56,7 +56,7 @@
                die("Please Enter API Key");
             }
              if(!empty($vidDe)){
-                  json_encode($jsonData = callAPI($fetchUrl,$api,$myDomain));
+                  json_encode($jsonData = callAPI($fetchUrl,$api,$myDomain="null"));
                    //collecting basic data 
                      $tthumb = $jsonData->data->thumb;
                      $error = $jsonData->data->error;
