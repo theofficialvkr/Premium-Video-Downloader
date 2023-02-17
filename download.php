@@ -57,7 +57,7 @@
             }
     
             if(!empty($vidDe)){
-              json_encode($jsonData = callAPI($fetchUrl,$api,$myDomain));
+              json_encode($jsonData = callAPI($fetchUrl,$api,$myDomain="null"));
              if(empty($api)){
                die("Please Enter API Key");
             }
